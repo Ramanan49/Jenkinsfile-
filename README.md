@@ -24,7 +24,7 @@ pipeline {
             echo 'Build and tests succeeded!'
         }
         failure {
-            echo 'Build or tests failed!'
+            echo 'Build or tests failed due to SearchService returning an empty list!'
         }
     }
 }
